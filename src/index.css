@@ -5,7 +5,8 @@
 /* تنسيقات الخطوط والـ scrollbar المخصصة */
 body {
     font-family: 'Tajawal', sans-serif;
-    background-color: #f3f4f6;
+    /* تأكد من أن الخلفية تعمل */
+    background-color: #f3f4f6 !important; 
 }
 ::-webkit-scrollbar {
     width: 8px;
